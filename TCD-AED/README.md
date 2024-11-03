@@ -1,4 +1,4 @@
-<img width="1227" alt="Desenho atualizado" src="https://github.com/Feupee/Algoritmos-e-Estruturas-de-Dados-2/assets/127551374/14b2dc36-36c2-4fd6-9abc-3477005539e0">
+
 
 # Resumo do projeto
 Projeto realizado na disciplina de Algoritmos e Estrutura de Dados 2, sendo realizado por 3 integrantes da UFU, visando a prática de Grafos, arvores, ordenação com a linguagem C.
