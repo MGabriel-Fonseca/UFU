@@ -12,7 +12,7 @@ As informações do jogador são armazenadas em uma estrutura de dados, incluind
 - `Funcionalidade 4` `Ranking de Jogadores`:Um sistema de ranking registra o desempenho dos jogadores com base em diferentes métricas, como tempo total de jogo e pontuação na área central.
 Os jogadores podem visualizar o ranking, que pode ser ordenado de acordo com diferentes critérios, como tempo total ou pontuação na área central.
 Funcionalidades para adicionar, remover e redefinir o ranking estão disponíveis. É usado o InsertionSort para ordenar o rank.
-- `Funcionalidade 5` `Instruções de Como Jogar`: O jogo fornece informações sobre como jogar, provavelmente explicando as regras, controles e objetivos do jogo.
+- `Funcionalidade 5` `Instruções de Como Jogar`: O jogo fornece informações sobre como jogar, explicando as regras, controles e objetivos do jogo.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
