@@ -20,5 +20,7 @@ Funcionalidades para adicionar, remover e redefinir o ranking estão disponívei
 - ``Vs code``
 - ``Git/Github``
 
+## 📁 Acesso ao projeto
+Você pode acessar os arquivos do projeto clicando [aqui](https://replit.com/@felipesantos200/Jogo-Labirinto).
 
 
