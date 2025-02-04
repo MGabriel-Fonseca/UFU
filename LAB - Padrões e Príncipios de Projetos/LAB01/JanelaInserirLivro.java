@@ -34,7 +34,6 @@ import javax.swing.JTextField;
             add(botaoRevistas);
             add(botaoListagem);
 
-            // Ação para incluir o livro
             botaoIncluir.addActionListener(e -> {
                 try {
                     MaterialBibliografico.adicionarMaterialBibliografico(
@@ -44,7 +43,6 @@ import javax.swing.JTextField;
                     );
                     JOptionPane.showMessageDialog(null, "Livro incluído.");
 
-                    // Limpando os campos de texto
                     campoTitulo.setText("");
                     campoAutor.setText("");
                     campoAno.setText("");
@@ -54,16 +52,14 @@ import javax.swing.JTextField;
                 }
             });
 
-            // Ação para ir à janela de revistas
             botaoRevistas.addActionListener(e -> {
-                new JanelaInserirRevista(); // Cria uma nova instância da janela de revistas
-                this.setVisible(false); // Oculta a janela de livros
+                new JanelaInserirRevista(); 
+                this.setVisible(false); 
             });
 
-            // Ação para ir à janela de listagem
             botaoListagem.addActionListener(e -> {
-                new JanelaListagem(); // Cria uma nova instância da janela de listagem
-                this.setVisible(false); // Oculta a janela de livros
+                new JanelaListagem(); 
+                this.setVisible(false); 
             });
 
             setVisible(true);

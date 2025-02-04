@@ -32,7 +32,7 @@ public class JanelaInserirRevista extends JFrame {
         add(botaoLivros);
         add(botaoListagem);
 
-        // Ação para incluir a revista
+
         botaoIncluir.addActionListener(e -> {
             try {
                 MaterialBibliografico.adicionarMaterialBibliografico(
@@ -42,7 +42,6 @@ public class JanelaInserirRevista extends JFrame {
                 );
                 JOptionPane.showMessageDialog(null, "Revista incluída.");
 
-                // Limpando os campos de texto
                 campoTitulo.setText("");
                 campoAutor.setText("");
                 campoEdicao.setText("");
@@ -52,16 +51,14 @@ public class JanelaInserirRevista extends JFrame {
             }
         });
 
-        // Ação para voltar à janela de livros
         botaoLivros.addActionListener(e -> {
-            new JanelaInserirLivro(); // Cria uma nova instância da janela de livros
-            this.setVisible(false); // Oculta a janela de revistas
+            new JanelaInserirLivro();
+            this.setVisible(false); 
         });
 
-        // Ação para ir para a janela de listagem
         botaoListagem.addActionListener(e -> {
-            new JanelaListagem(); // Cria uma nova instância da janela de listagem
-            this.setVisible(false); // Oculta a janela de revistas
+            new JanelaListagem();
+            this.setVisible(false);
         });
 
         setVisible(true);
