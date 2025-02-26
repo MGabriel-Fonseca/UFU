@@ -1,1 +1,14 @@
 
+public class Moto extends Veiculo{
+    private String modelo;
+    private String marca;
+    private int ano;
+
+    public Moto(String modelo, String marca, int ano) {
+        super(modelo, marca, ano);
+    }
+
+    public void ligar() {
+        System.out.println("Ligando a moto " + modelo);
+    }
+}
